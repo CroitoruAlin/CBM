@@ -1,2 +1,2 @@
-# CBM
-CBM: Curriculum by Masking
+# CBM: Curriculum by Masking
+
