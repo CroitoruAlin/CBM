@@ -1,4 +1,4 @@
-# CBM
+# CBM: Curriculum by Masking (accepted at ECAI 2024)
 
 CBM: Curriculum by Masking implementation repository for reproducing the experiments.
 
