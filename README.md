@@ -4,7 +4,7 @@ CBM: Curriculum by Masking implementation repository for reproducing the experim
 
 ### Data
 
-The data sets (CIFAR-10, CIFAR-100, Tiny ImageNet-200, Food101, Sport Balls, Sea Animals, Architectural Heritage Elements) should be stored in the **data** folder. The CIFAR variants are gathered automatically upon executing the code. The Tiny ImageNet-200 data set can be found at the following address: http://cs231n.stanford.edu/tiny-imagenet-200.zip.
+The data sets (CIFAR-10, CIFAR-100, Tiny ImageNet-200, Food101, Sport Balls, Sea Animals, Architectural Heritage Elements) should be stored in the **data** folder. The CIFAR variants are gathered automatically upon executing the code. The Tiny ImageNet-200 data set can be found at the following address: http://cs231n.stanford.edu/tiny-imagenet-200.zip, Sport Balls at https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification, Sea Animals at https://www.kaggle.com/datasets/vencerlanz09/sea-animals-image-dataste, and AHE at https://www.kaggle.com/datasets/ikobzev/architectural-heritage-elements-image64-dataset.
 
 ### Other prerequisites
 
