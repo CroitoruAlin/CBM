@@ -25,7 +25,7 @@ The experiments for our best results can be run with the following command:
 ```
 1) The notations for the models are: **resnet18**, **wresnet**, **cvt_pretrained**.
 
-2) The notations for the data sets are: **cifar10**, **cifar100**, **tinyimagenet**, **food101**.
+2) The notations for the data sets are: **cifar10**, **cifar100**, **tinyimagenet**, **food101**, **balls**, **seaanimals**, **ahe**.
 ```sh
     python main.py --model_name resnet18 --dataset cifar10
 ```
