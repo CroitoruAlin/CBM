@@ -61,14 +61,14 @@ class Trainer:
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
-            '''
+            
             pred = y_pred.argmax(dim=1, keepdim=True)
             correct += pred.eq(target.view_as(pred)).sum().item()
             '''
             
             top5_pred = y_pred.topk(5, dim=1).indices
             correct += sum([1 if target[i] in top5_pred[i] else 0 for i in range(len(target))])
-            
+            '''
             processed += len(data)
             steps += 1
         print(f'Loss={loss.item()} Accuracy={100 * correct / processed:0.2f}')
