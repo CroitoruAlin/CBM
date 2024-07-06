@@ -34,7 +34,7 @@ The experiments for our best results can be run with the following command:
 
 The **MaskIn Block** can be found as a layer in all models which is responsible for masking the images based on gradient magnitudes.
 
-The gradient magnitudes are created in the DataLoaders. The implementation is represented by the **get_probability()** function in **data_handlers.py**.
+The gradient magnitudes are created in the DataLoaders. The implementation is represented by the **get_probability()** function in **data_handlers.py** and **datasets.py**.
 
 The curricula for our best results are found in the **experiments** folder and the ablation cases in the **ablation** folder.
 
