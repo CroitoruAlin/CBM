@@ -8,7 +8,7 @@ The data sets (CIFAR-10, CIFAR-100, Tiny ImageNet-200, Food101, Sport Balls, Sea
 
 ### Other prerequisites
 
-1) The weights for any pre-trained models must be stored in the **pretrained_models** folder. The weights used in our experiments are **CvT-13-224x224-IN-1k.pth** and can be found at: https://onedrive.live.com/?authkey=%21AMXesxbtKwsdryE&id=56B9F9C97F261712%2115004&cid=56B9F9C97F261712.
+1) The weights for any pre-trained models must be stored in the **pretrained_models** folder. The weights used in our experiments are **CvT-13-224x224-IN-1k.pth** and can be found at: https://1drv.ms/u/s!AhIXJn_J-blW9RzF3rMW7SsLHa8h?e=blQ0Al.
 
 2) CBM will save the best model in the folder **saved_models**, which has to be created prior to training.
 
